@@ -1,4 +1,4 @@
-
+#hello israel
 #global' variables
 var = ["a","b","c"]
 exit = false
