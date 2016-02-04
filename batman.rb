@@ -10,7 +10,8 @@ def you_die
   puts "The last thing you see is the Joker's gun's barrel in your face."
   puts "BANG!! everything goes silent..."
   puts "The End"
-  print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/joker_evil_laugh.mp3 &`
+  #local file 
+  #print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/joker_evil_laugh.mp3 &`
   sleep(4)
   exit
 end
