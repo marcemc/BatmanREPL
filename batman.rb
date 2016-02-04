@@ -37,7 +37,8 @@ puts """
                                           MMMMMM
                                            MMMM
                                             MM """
-print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/batman_theme.mp3`
+#plays local file
+#print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/batman_theme.mp3`
 end
 
 def riddles
