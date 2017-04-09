@@ -10,8 +10,8 @@ def you_die
   puts "The last thing you see is the Joker's gun's barrel in your face."
   puts "BANG!! everything goes silent..."
   puts "The End"
-  #local file 
-  #print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/joker_evil_laugh.mp3 &`
+  #open youtube
+  print `open "https://youtu.be/wcinzmfZeCc"`
   sleep(4)
   exit
 end
@@ -38,7 +38,7 @@ puts """
                                            MMMM
                                             MM """
 #plays local file
-#print `afplay /Users/Marce/Desktop/BckUppy/WebDeveloping/rubymedia/batman_theme.mp3`
+print `afplay ./batman_theme.mp3`
 end
 
 def riddles
@@ -223,4 +223,3 @@ begin  print `clear`
   wake_up(var)
   exit_game = play_again
 end until exit_game == true
-
